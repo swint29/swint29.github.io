@@ -11,9 +11,10 @@ header{
     font-weight: 200
 }
 		/*  Start of navbar styling */
-ul {
+.navul {
 	list-style-type: none;
     margin: 0;
+    margin-bottom: 5px;
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
@@ -21,21 +22,22 @@ ul {
 	position: sticky;
 	top: 0;
 }
-li {
+.navli {
 	float: left;
 }
-li a {
+.navli a {
 	display: block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
-li a:hover {
+.navli a:hover {
 	background-color: #111;
     color: white;
     text-decoration: none;
 }
+
 .active {
 	background-color: rgb(170, 85, 85);
 }
