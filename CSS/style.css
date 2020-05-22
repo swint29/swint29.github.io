@@ -38,7 +38,7 @@ header{
     text-decoration: none;
 }
 
-.active {
+.activeNav {
 	background-color: rgb(170, 85, 85);
 }
 /*  End of navbar styling */
