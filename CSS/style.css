@@ -43,10 +43,6 @@ header{
 }
 /*  End of navbar styling */
 
-.active {
-    color: rgb(170, 85, 85);
-}
-
 .carousel{
     border: 4px solid rgb(170, 85, 85);
     margin-left: 2%;
