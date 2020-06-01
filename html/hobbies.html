@@ -19,6 +19,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
+        <script src="../js/main.js"></script>
+
     </head>
     
     <body style="background-image: url('../images/background1.jpg')">
@@ -47,11 +49,11 @@
                     <div class="container" style="width: inherit;">
                         <h2>Hobbies</h2>
                         <ul class="nav nav-tabs" style="align-content: center;">
-                          <li class="active"><a data-toggle="tab" href="#travel">Travel</a></li>
-                          <li><a data-toggle="tab" href="#sports">Sports</a></li>
+                          <li class="active"><a data-toggle="tab" href="#travel" style="color: rgb(170, 85, 85);" onclick="switchTab()" id="tab1">Travel</a></li>
+                          <li><a data-toggle="tab" href="#sports" style="color: black;" onclick="switchTab()" id="tab2">Sports</a></li>
                         </ul>
                         <br>
-                        <div class="tab-content">
+                        <div class="tab-content" style="color:rgb(170, 85, 85)">
                             <div id="travel" class="tab-pane fade in active">
                                 <ul style="background-color: white; list-style-type:circle;">
                                     <li>Boulder, Colorado</li>

@@ -19,6 +19,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
    
+        <script src="../js/main.js"></script>
 
     </head>
     
@@ -47,11 +48,11 @@
                     <div class="container" style="width: inherit;">
                         <h2>Occupation</h2>
                         <ul class="nav nav-tabs" style="align-content: center;">
-                          <li class="active"><a data-toggle="tab" href="#dev">Development</a></li>
-                          <li><a data-toggle="tab" href="#ent">Entrepreneurship</a></li>
+                          <li class="active"><a data-toggle="tab" href="#dev"  style="color: rgb(170, 85, 85);" onclick="switchTab()" id="tab1">Development</a></li>
+                          <li><a data-toggle="tab" href="#ent" style="color: black;" onclick="switchTab()" id="tab2">Entrepreneurship</a></li>
                         </ul>
                         <br>
-                        <div class="tab-content">
+                        <div class="tab-content" style="color:rgb(170, 85, 85)">
                             <div id="dev" class="tab-pane fade in active">
                                 <ul style="background-color: white; list-style-type:circle;">
                                     <li>Invisible Fence Contract</li>
