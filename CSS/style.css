@@ -10,7 +10,8 @@ header{
     text-align: center;
     font-weight: 200;
 }
-		/*  Start of navbar styling */
+
+/* Navbar styling */
 .navul {
 	list-style-type: none;
     margin: 0;
@@ -41,8 +42,8 @@ header{
 .activeNav {
 	background-color: rgb(170, 85, 85);
 }
-/*  End of navbar styling */
 
+/* Removes any extra space on the side of the body*/
 html,body
 {
     width: 100%;
