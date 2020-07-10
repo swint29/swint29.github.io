@@ -8,7 +8,7 @@
 header{
     font-size: 60px;
     text-align: center;
-    font-weight: 200
+    font-weight: 200;
 }
 		/*  Start of navbar styling */
 .navul {
@@ -42,6 +42,16 @@ header{
 	background-color: rgb(170, 85, 85);
 }
 /*  End of navbar styling */
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 
 .carousel{
     border: 4px solid rgb(170, 85, 85);
