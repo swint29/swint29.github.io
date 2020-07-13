@@ -99,7 +99,7 @@ html,body
 .card{
     margin:1em;
     height: 25em;
-    width: 42em;
+    width: 100%;
     background-color: white;
     border:4px solid rgb(170, 85, 85);
     border-radius: 15px;    
