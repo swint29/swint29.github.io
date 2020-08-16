@@ -53,6 +53,24 @@ html,body
     overflow-x: hidden; 
 }
 
+@media(min-width:678px){
+    .dynamicCol1{
+        width:100%;
+    }
+}
+
+@media(max-width: 677px){
+    .dynamicCol1{
+        width: 90vw;
+    }
+    .dynamicCol2{
+        margin: 2.5%;
+        margin-top: 5%;
+        min-width: 90vw;
+    }
+}
+
+
 
 .carousel{
     border: 4px solid rgb(170, 85, 85);
